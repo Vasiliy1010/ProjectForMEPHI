@@ -10,10 +10,15 @@ public class Main {
             System.out.println("i = " + i);
         }
         getName();
+        DobychinSuperMegaWork tmp = invokeDobychinSuperWork();
     }
 
     public static void getName(){
         System.out.print("Это ");
         PolyakovPath.getName();
+    }
+
+    public static DobychinSuperMegaWork invokeDobychinSuperWork(){
+        return new DobychinSuperMegaWork();
     }
 }
